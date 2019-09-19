@@ -1,5 +1,5 @@
 <launch>
-  <node pkg="calibration_publisher" type="calibration_publisher" name="calibration_publisher" output="screen" ns="usb_cam">
-    <param name="camera_frame" type="string" value="usb_cam"/>
+  <node pkg="calibration_publisher" type="calibration_publisher" name="calibration_publisher" output="screen" ns="kinect">
+    <param name="camera_frame" type="string" value="kinect2_rgb_optical_frame"/>
   </node>
 </launch>
